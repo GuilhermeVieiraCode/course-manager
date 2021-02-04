@@ -88,6 +88,6 @@
     </div>
 
     <button [disabled]="courseForm.invalid" (click)="save()" class="btn btn-primary mr-2">Save</button>
-    <a (click)="deleteById()" class="btn btn-secondary mr-2">Delete</a>
+    <a (click)="deleteById()" class="btn btn-danger mr-2">Delete</a>
     <button [routerLink]="['/courses']" class="btn btn-secondary">Back</button>
 </form>
